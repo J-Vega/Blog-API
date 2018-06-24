@@ -1,0 +1,21 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Building a CRUD API from scratch for Node and Express practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "API",
+    "CRUD",
+    "NPM"
+  ],
+  "author": "Jonathan Vega",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}
