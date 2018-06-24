@@ -36,3 +36,7 @@ app.post('/blog-posts', (req, res) => {
 //DELETE and PUT requests should go to /blog-posts/:id
 
 //Use Express router and modularize routes to /blog-posts
+
+app.listen(process.env.PORT || 8080, () => {
+  console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
+});
